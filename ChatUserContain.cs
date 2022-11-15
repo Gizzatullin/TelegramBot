@@ -1,7 +1,11 @@
 ﻿using Telegram.Bot.Types;
 
+
 namespace BotTelegramLib
-{
+{   
+    /// <summary>
+    /// Список чата пользователя с его данными.
+    /// </summary>
     public class ChatUserContain
     {
         public int Index { get; set; }
@@ -16,6 +20,8 @@ namespace BotTelegramLib
         public string ChatUserAuthor { get; set; }
         public string ChatUserDescription { get; set; }
         public string ChatUserGenre { get; set; }
+
+
 
         public ChatUserContain(int index, long chatId, bool sortL, int addBF, int correctBF, bool delBF, bool downloadBF, bool uploadBF,
                                string chatutitle, string chatuauthor, string chatudescription, string chatugenre)

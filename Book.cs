@@ -1,5 +1,6 @@
 ﻿namespace BotTelegramLib
 {
+
     /// <summary>
     /// Опредение параметров книги.
     /// </summary>
