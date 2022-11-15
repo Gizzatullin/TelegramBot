@@ -1,0 +1,9 @@
+# Folder bin and obj
+bin
+obj
+packages
+\Lesson4\bin
+\Lesson4\obj
+
+# Folder .vs
+.vs/*
