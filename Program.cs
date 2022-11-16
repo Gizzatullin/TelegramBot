@@ -73,6 +73,7 @@ namespace BotTelegramLib
             {
                 logger.Info($"Поступило сообщение от пользователя {update.Message.From.Username} - {update.Message.Text}.");
                 await HandleMessage(botClient, update.Message);
+                Task.WaitAll();
                 return;
             }
         }
